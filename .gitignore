@@ -48,3 +48,39 @@ build-iPhoneSimulator/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+
+
+.rspec
+results
+tags
+.*.sw[op]
+ext/packaging
+pkg
+test.pp
+# YARD generated documentation
+.yardoc
+/doc
+# Now that there is a gemfile, RVM ignores rvmrc in parent directories, so a local one is required
+# to work around that.  Which we don't want committed, so we can ignore it here.
+/.rvmrc
+.bundle/
+ext/packaging/
+pkg/
+Gemfile.lock
+Gemfile.local
+puppet-acceptance/
+/.project
+.ruby-version
+.ruby-gemset
+acceptance/junit
+acceptance/log
+acceptance/.bundle
+acceptance/.beaker
+# emacs backup files
+*~
+/*.samples
+coverage/
+# Files and directory added by RubyMine IDE
+*.iml
+.rakeTasks
+
